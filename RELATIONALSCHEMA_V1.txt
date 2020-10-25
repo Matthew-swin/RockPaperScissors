@@ -1,0 +1,6 @@
+User (Username)
+PK (Username)
+
+Round(DateTime,UserName, PlayerSelection, AiSelection)
+PK(DateTime, UserName)
+FK (UserName) references User
