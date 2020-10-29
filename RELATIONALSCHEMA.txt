@@ -1,0 +1,22 @@
+Version 1:
+
+User (Username)
+PK (Username)
+
+Round(DateTime,UserName, PlayerSelection, AiSelection)
+PK(DateTime, UserName)
+FK (UserName) references User
+
+Version 1.1:
+
+User (Username)
+PK (Username)
+
+Round(DateTime,UserName, PlayerSelection, AiSelection)
+PK(DateTime, UserName)
+FK (UserName) references User
+
+Leaderboard (VIEW)
+
+
+Version 2.0:
